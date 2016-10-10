@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<title>wearable</title>
+	
+	<%= csrf_meta_tags %>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,300">
+
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+	</head>
+	
+
+	<body>
+		<%= render 'shared/navbar' %>
+		<%= yield %>
+		
+		<header class="container">
+		    <div class="row">
+				<p class="notice"><%= notice %></p>
+				<p class="alert"><%= alert %></p>
+			</div>
+		</header>
+
+	   <footer>
+	        <div class="container center-item">
+	            <div class="row">
+	            	<hr>
+	                <h5>&copy; Wearable, Inc. 2016</h5>
+	            </div>
+	        </div>
+	    </footer>
+	</body>
+</html>

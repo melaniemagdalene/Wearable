@@ -1,0 +1,45 @@
+<header class="container center-item">
+  <div class="row">
+    <h1>Register below.</h1>
+    <p class="lead">Please ensure that required information is provided below.</p>
+  </div>
+  <hr>
+</header>
+
+<div class="container">
+  <div class="row">
+    <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+    <%= devise_error_messages! %>
+
+      <div>
+        <%= f.text_field :name, autofocus: true, placeholder: "Name" %>
+      </div>
+      <br>
+
+      <div>
+        <%= f.email_field :email, autofocus: true, placeholder: "Email" %>
+      </div>
+      <br>
+
+      <div>
+        <%= f.password_field :password, autocomplete: "off", placeholder: "Password" %>
+      </div>
+      <br>
+
+      <div>
+        <%= f.password_field :password_confirmation, autocomplete: "off", placeholder: "Confirm Password" %>
+      </div>
+      <br>
+
+      <div class="center-item">
+        <%= f.submit "Create account" %>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+<div class="container center-item">
+  <button class="btn-grey white-text">
+    <%= link_to "Login", new_user_session_path %>
+  </button>
+</div>

@@ -1,0 +1,312 @@
+.h5, h5 {
+  color: #696969;
+  font-family: Poppins;
+  font-weight: thin;
+  font-size: 1.25rem;
+}
+
+p {
+  font-weight: bold;
+  font-size: large;
+}
+
+.container-grey {
+  background-color: #f7f7f7;
+  padding-top: 25px;
+  padding-bottom: 70px;
+  padding-right: 14%;
+  padding-left: 14%;
+}
+
+.display-3 {
+  color: #000000;
+  font-weight: thin;
+}
+
+.card-block {
+  width: 100%;
+}
+
+.card b {
+  padding-left: 3%;
+/*  padding-bottom: 1%;*/
+/*  font-family: Montserrat;*/
+}
+
+.card p {
+  padding-left: 3%;
+  padding-top: 2%;
+/*  padding-bottom: 1%;*/
+/*  font-family: Montserrat;*/
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.white-text a {
+  color: white;
+  text-shadow: 0px .5px #696969;
+}
+
+.white-text {
+  text-shadow: 0px .5px #696969;
+}
+
+#carousel-example-generic {
+  background-color: black;
+
+}
+.carousel-item img {
+  opacity: 0.5;
+}
+
+.b {
+  font-family: Montserrat;
+  color: #365899;
+}
+
+b, strong {
+  color: black;
+}
+
+.post-time {
+  color: #90949c;
+  font-size: 14px;
+}
+
+body,html {
+  height: 100%;
+}
+
+/*.about-background {
+  width: 100%;
+  height: 100%;
+  height: calc(50% - 1px);
+  background-image: url("/assets/Fashion_peace.jpg");
+  background-size: cover;
+}
+*/
+.view-background {
+  width: 100%;
+  height: 100%;
+  height: calc(50% - 1px);
+  background-image: url("/assets/Fashion_breitling.jpg");
+  background-size: cover;
+}
+
+.show-background {
+  width: 100%;
+  height: 100%;
+  height: calc(40% - 1px);
+  background-image: url("/assets/Fashion_beach.jpg");
+  background-size: cover;
+}
+
+.contact-background {
+  width: 100%;
+  height: 100%;
+  height: calc(50% - 1px);
+  background-image: url("/assets/Fashion_connect_2.jpg");
+  background-size: cover;
+}
+
+.wide img {
+  width:100%;
+}
+
+/*Search*/
+/*Search*/
+
+.carousel-caption {
+  font-weight: 200;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+form {
+  text-align: center;
+}
+
+textarea {
+  width: 80%;
+}
+
+h1 {
+  font-family: Poppins;
+  margin-top: 40px;
+}
+
+.center-item {
+  text-align: center;
+}
+
+h1.center-item {
+  font-family: Montserrat;
+  margin-top: 40px;
+}
+
+.reg-form {
+  max-width: 800px;
+}
+
+.home-container {
+  margin-top: 30px;
+}
+
+.login-email {
+  margin-top: 40px;
+}
+
+[type=text] {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  height: 45px;
+  line-height: 45px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: rgba(0,0,0,.4);
+}
+
+[type=email] {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  height: 45px;
+  line-height: 45px;  
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: rgba(0,0,0,.4);
+}
+
+[type=password] {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  height: 45px;
+  line-height: 45px;  
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: rgba(0,0,0,.4);
+}
+
+[type=submit] {
+  margin-top: 25px;
+  width: 80%;
+  border: 0;
+  background-color: #53CACE;
+  border-radius: 5px;
+  height: 50px;
+  color: white;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+[type='text']:focus {
+  outline: none;
+  border-color: #53CACE;
+}
+
+[type='email']:focus {
+  outline: none;
+  border-color: #53CACE;
+}
+
+[type='password']:focus {
+  outline: none;
+  border-color: #53CACE;
+}
+
+.nav {
+    float: right;
+}
+
+a {
+  color: #696969;
+}
+
+.btn-outline-info {
+  padding-left: 2%;
+  padding-right: 2%;
+  /*box-shadow: 0 1px 0 0 #000000;*/
+  border-radius: 25px;
+  width: 15%;
+  text-align: center;
+/*  border-width: medium;*/
+}
+
+.btn.btn-info {
+  background-color: #53CACE;
+  padding-left: 2%;
+  padding-right: 2%;
+  /*box-shadow: 0 1px 0 0 #000000;*/
+  border-radius: 25px;
+  width: 20%;
+  text-align: center;
+}
+
+.btn-grey {
+  background-color: #a5acad;
+  border-radius: 25px;
+}
+
+.btn-grey {
+  margin-top: 25px;
+  width: 30%;
+  border: 0;
+  background-color: #696969;
+  border-radius: 5px;
+  height: 50px;
+  color: white;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+/*.nav-link {
+  background-color: #53CACE;
+  border-radius: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body h1 {
+  color: white;
+}
+
+body p {
+  color: white;
+}
+
+.container-fluid {
+  margin-top: 40px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.logo {
+    float: left;
+    margin: 19px 17px 0 0;
+}
+
+.navbar-brand {
+  color: white;
+  padding-left: 70px;
+}*/
+
+.nav-link {
+  color: white;
+}
+
+.nav.navbar-nav {
+  padding-right: 150px;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<header class="container center-item">
+	  <div class="row">
+	    <h1>Unleash your closet.</h1>
+	  </div>
+	</header>
+
+	<div class="container center-item">
+		<div class="row">
+		    <p class="lead">Find gently used, beautiful accessories close to home, and offer items that you no longer use.</p>
+		    <hr>
+
+		    <p class="lead">Founded in September of 2016 and based in Miami, Florida. <br> Wearable is a trusted community for people to share clothing and accessories.</p>
+		    <br>
+		    <br>
+		</div>
+	</div>
+
+	<!-- <div class="container center-item">
+		<div class="row">
+			<h1 class="display-3">SHARE, REQUEST, WEAR </h1>
+		</div>
+	</div> -->
+
+		<div class="container-grey center-item">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<h1 class="display-3"> Your neighborhood network <br> to share and request wearables <br> with people around you.</h1>
+					<br>
+				</div>
+				
+				<button class="btn btn-outline-info">
+					<%= link_to "Join", new_user_registration_path %>
+				</button>
+				
+				<button class="btn btn-outline-info">
+					<%= link_to "Login", new_user_session_path %>
+				</button>
+			</div>
+			<br>
+		</div>
+
+	<div class="container center-item">
+		<div class="row">
+			<div class="container home-container center-item">
+				<div class="row">
+					<div class="container text-center">
+						<div class="row">      
+						</div>
+					</div>
+					<br>
+				</div>
+				<br>
+			</div>
+
+			<div class="container">
+				<ul>
+					<div class="row">
+						<p class="lead">How it works</p>
+					</div>
+
+					<div class="col-sm-4">
+						<div class="row">
+						    <img src="/assets/Vectors_5_2.png" height="100" width="100">
+					    </div>
+					    <br>
+						    <b>Search for a product</b>
+					    <div class="well well-lg text-center">
+						    <p class="lead">Browse listings to find items nearby.</p>
+				        </div>
+				    </div>
+
+					<div class="col-sm-4">
+						<div class="row">
+							<img src="/assets/Vectors_6_2.png" height="100" width="100">
+						</div>
+						<br>
+							<b>Connect with a giver</b>
+				        <div class="well well-lg text-center">
+				        	<p class="lead">Send messages and meet in-person.</p>
+				        </div>
+					</div>
+
+					<div class="col-sm-4">
+						<div class="row">
+							<img src="/assets/Vectors_3_2.png" height="100" width="100">
+					    </div>
+					    <br>
+							<b>Book and meet</b>
+				        <div class="well well-lg text-center">
+					        <p class="lead">No cash necessary, completely free!</p>
+				        </div>
+				    </div>
+			    </ul>
+			</div>    
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+
+	<!-- Search -->
+	<div class="container input-group text-center">			
+		<div class="container center-item">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Search for an item...">
+					<!-- 	<span class="input-group-btn">
+							<button class="btn btn-info white-text">Search</button>
+						</span> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<!-- Search -->
+
+	<div class="container center-item">
+	    <button class="btn-grey white-text">
+	      <%= link_to "Explore different products", posts_path(@post) %>
+	    </button>
+	</div>
+	<br>
+	<br>
+	<br>
+
+	<div class="container-grey center-item">
+		<div class="row">
+			<div class="col-xs-12 text-center">
+				<!-- <img src="/assets/Vectors_4_2.png" height="100" width="100"> -->
+				<h1 class="display-5"><img src="/assets/Vectors_4_2.png" height="150" width="150"><br>Have a problem or an idea?</h1>
+				<p class="lead">We'd love to hear about it.</p>
+				<br>
+			</div>
+
+			<button class="btn btn-outline-info">
+				<%= link_to "Contact us", contact_path %>
+			</button>
+		</div>
+		<br> 
+	</div>
+</html>

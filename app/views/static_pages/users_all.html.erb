@@ -1,0 +1,13 @@
+<!-- baby debugging -->
+
+<%= user = User.new() %>
+<% user.name = "Muhan" %>
+
+Name:
+<%= user.name %>
+
+<%= User.all %>
+
+<%= User.all.each do |user|
+	user
+end %>

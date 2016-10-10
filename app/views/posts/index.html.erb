@@ -1,0 +1,39 @@
+<div class="view-background">
+</div>
+
+<header class="container">
+	<div class="row">
+		<h1 class="center-item">View all posts and connect.</h1>
+	</div>
+</header>
+<hr>
+<br>
+
+<div class="container">
+	<div class="row">
+		<% @posts.each do |post| %>
+			<div class="text-center">
+				<span class="post-time"><%= post.created_at.strftime('%b %d, %Y') %></span>
+				<h4 class="display-4"><%= post.title %></h4>
+				<div class="lead"><%= post.description %></div>
+			</div>
+
+			<div class="text-center">
+				<b><%= link_to "Read more", post_path(post) %></b>
+			</div>
+			<br>
+		<% end %>
+	</div>
+	<br>
+	<br>
+
+	<button type="button" class="btn btn-info white-text">
+		<%= link_to "Request item", new_post_path %>
+	</button>
+	<br>
+	<br>
+
+	<button type="button" class="btn btn-info white-text">
+		<%= link_to "Logout", destroy_user_session_path, :method => :delete %>
+	</button>
+</div>

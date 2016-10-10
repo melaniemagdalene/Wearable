@@ -1,0 +1,39 @@
+<% provide(:title, "Log in") %>
+
+<header class="container center-item">
+    <div class="row">
+        <h1 class="center-item">Log into wearable.</h1>
+        <p class="lead">The place to discover amazing things curated by people in your area.</p>
+    </div>
+    <hr>
+</header>
+
+<div class="container">
+    <div class="row">
+        
+        <div>
+            <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+        
+                <div class="login-email">
+                    <%= f.email_field :email, class: 'form-control', placeholder: "Email address" %>
+                </div>
+                <br>
+
+                <div>
+                    <%= f.password_field :password, class: 'form-control', placeholder: "Password" %>
+                </div>
+                
+                <div class="center-item">
+                    <%= f.submit "Login", class: "actions", data: { no_turbolink: true } %>
+                </div>
+            <% end %>
+            <br>
+        </div>
+    </div>
+</div>
+
+<div class="container center-item">
+    <button class="btn-grey white-text">
+        <%= link_to "Register", new_user_registration_path %>
+    </button>
+</div>
