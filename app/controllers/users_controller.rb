@@ -4,7 +4,7 @@ class UsersController < ApplicationController
 	end
 
 	def new
-		@user = User.new, notice: "Thank you for registering!"
+		@user = User.new
 	end
 
 	def show
@@ -13,7 +13,7 @@ class UsersController < ApplicationController
 
 
 	def create
-		@user = User.new, notice: "Thank you for registering!"
+		@user = User.new
 		@user.save
 	end
 
